@@ -176,11 +176,11 @@
 
         neu {
             bindings = <
-&trans     &trans  &trans  &trans  &trans  &trans    &trans     &trans   &trans  &trans             &trans    &trans
-&trans     &kp W   &kp F   &kp M   &kp P   &kp V     &kp FSLH   &kp DOT  &kp Q   &kp DOUBLE_QUOTES  &kp APOS  &kp Z
-&trans     &kp R   &kp S   &kp N   &kp T   &kp B     &kp COMMA  &kp A    &kp E   &kp I              &kp H     &kp J
-&kp LSHFT  &kp X   &kp C   &kp L   &kp D   &kp G     &kp MINUS  &kp U    &kp O   &kp Y              &kp K     &kp RSHFT
-           &trans  &trans  &trans  &trans  &trans    &trans     &trans   &trans  &trans             &trans
+&trans      &trans        &trans        &trans      &trans     &trans     &trans     &trans         &trans      &trans             &trans    &trans
+&kp ESCAPE  &kp W         &kp F         &kp M       &kp P      &kp V      &kp FSLH   &kp DOT        &kp Q       &kp DOUBLE_QUOTES  &kp APOS  &kp Z
+&kp TAB     &kp R         &kp S         &kp N       &kp T      &kp B      &kp COMMA  &kp A          &kp E       &kp I              &kp H     &kp J
+&kp LSHFT   &kp X         &kp C         &kp L       &kp D      &kp G      &kp MINUS  &kp U          &kp O       &kp Y              &kp K     &kp RSHFT
+            &kp LEFT_WIN  &kp LEFT_ALT  &kp ESCAPE  &kp SPACE  &kp TAB    &kp ENTER  &kp BACKSPACE  &kp DELETE  &trans             &trans
             >;
         };
     };
