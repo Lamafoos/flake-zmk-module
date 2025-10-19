@@ -173,5 +173,15 @@
         &trans   &trans    &trans    &trans     &trans     &trans  &trans  &trans  &trans  &trans
             >;
         };
+
+        neu {
+            bindings = <
+&trans     &trans  &trans  &trans  &trans  &trans    &trans     &trans   &trans  &trans             &trans    &trans
+&trans     &kp W   &kp F   &kp M   &kp P   &kp V     &kp FSLH   &kp DOT  &kp Q   &kp DOUBLE_QUOTES  &kp APOS  &kp Z
+&trans     &kp R   &kp S   &kp N   &kp T   &kp B     &kp COMMA  &kp A    &kp E   &kp I              &kp H     &kp J
+&kp LSHFT  &kp X   &kp C   &kp L   &kp D   &kp G     &kp MINUS  &kp U    &kp O   &kp Y              &kp K     &kp RSHFT
+           &trans  &trans  &trans  &trans  &trans    &trans     &trans   &trans  &trans             &trans
+            >;
+        };
     };
 };
