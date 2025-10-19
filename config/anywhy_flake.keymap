@@ -9,31 +9,37 @@
         bt_sel_3 {
             bindings = <&bt3>;
             key-positions = <42 30>;
-            layers = <2>;
+            layers = <3>;
         };
 
         bt_sel_4 {
             bindings = <&bt4>;
             key-positions = <30 18>;
-            layers = <2>;
+            layers = <3>;
         };
 
         enter_gaming {
-            bindings = <&sl 3>;
+            bindings = <&sl 4>;
             key-positions = <26 15 28>;
-            layers = <2>;
+            layers = <3>;
         };
 
         leave_gaming {
             bindings = <&sl 0>;
             key-positions = <31 20 33>;
-            layers = <4>;
+            layers = <5>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <13 25>;
-            layers = <3>;
+            layers = <4>;
+        };
+
+        grave-neu {
+            bindings = <&kp GRAVE>;
+            key-positions = <21 22>;
+            layers = <1>;
         };
     };
 
@@ -130,7 +136,17 @@
 &kp ENTER  &kp Q     &kp W     &kp E      &kp R      &kp T     &kp Y   &kp U      &kp I      &kp O     &kp P      &kp BSPC
 &kp TAB    &kp A     &kp S     &kp D      &kp F      &kp G     &kp H   &kp J      &kp K      &kp L     &kp SEMI   &kp APOS
 &kp LBKT   &kp Z     &kp X     &kp C      &kp V      &kp B     &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH   &kp RBKT
-           &kp LGUI  &kp LALT  &kp LCTRL  &kp SPACE  &mo 1     &mo 2   &kp LSHFT  &kp LGUI   &kp LALT  &kp LCTRL
+           &kp LGUI  &kp LALT  &kp LCTRL  &kp SPACE  &mo 2     &mo 3   &kp LSHFT  &kp LGUI   &kp LALT  &kp LCTRL
+            >;
+        };
+
+        neu {
+            bindings = <
+&trans          &trans        &trans            &trans      &trans     &trans       &trans       &trans         &trans      &trans             &trans         &trans
+&kp ESCAPE      &kp W         &kp F             &kp M       &kp P      &kp V        &kp FSLH     &kp DOT        &kp Q       &kp DOUBLE_QUOTES  &kp APOS       &kp Z
+&kp SEMICOLON   &kp R         &kp S             &kp N       &kp T      &kp B        &kp COMMA    &kp A          &kp E       &kp I              &kp H          &kp J
+&kp LEFT_SHIFT  &kp X         &kp C             &kp L       &kp D      &kp G        &kp MINUS    &kp U          &kp O       &kp Y              &kp K          &kp RSHFT
+                &kp LEFT_GUI  &kp LEFT_CONTROL  &kp ESCAPE  &kp SPACE  &lt 2 TAB    &lt 3 ENTER  &kp BACKSPACE  &kp DELETE  &kp RIGHT_CONTROL  &kp RIGHT_GUI
             >;
         };
 
@@ -160,7 +176,7 @@
 &kp CAPS   &kp TAB    &kp Q   &kp W   &kp E      &kp R     &kp Y   &kp U      &kp I      &kp O     &kp P      &kp BSPC
 &kp ENTER  &kp LSHFT  &kp A   &kp S   &kp D      &kp F     &kp H   &kp J      &kp K      &kp L     &kp SEMI   &kp APOS
 &kp LBKT   &kp LCTRL  &kp Z   &kp X   &kp C      &kp V     &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH   &kp RBKT
-           &kp T      &kp G   &kp B   &kp SPACE  &mo 4     &mo 2   &kp LSHFT  &kp LGUI   &kp LALT  &kp LCTRL
+           &kp T      &kp G   &kp B   &kp SPACE  &mo 5     &mo 3   &kp LSHFT  &kp LGUI   &kp LALT  &kp LCTRL
             >;
         };
 
@@ -171,16 +187,6 @@
 &trans  &kp N1   &kp N2    &kp N3    &kp N4     &kp N5     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp N6   &kp N7    &kp N8    &kp N9     &kp N0     &trans  &trans  &trans  &trans  &trans  &trans
         &trans   &trans    &trans    &trans     &trans     &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        neu {
-            bindings = <
-&trans          &trans        &trans        &trans      &trans     &trans     &trans     &trans         &trans      &trans             &trans    &trans
-&trans          &kp W         &kp F         &kp M       &kp P      &kp V      &kp FSLH   &kp DOT        &kp Q       &kp DOUBLE_QUOTES  &kp APOS  &kp Z
-&trans          &kp R         &kp S         &kp N       &kp T      &kp B      &kp COMMA  &kp A          &kp E       &kp I              &kp H     &kp J
-&kp LEFT_SHIFT  &kp X         &kp C         &kp L       &kp D      &kp G      &kp MINUS  &kp U          &kp O       &kp Y              &kp K     &kp RSHFT
-                &kp LEFT_WIN  &kp LEFT_ALT  &kp ESCAPE  &kp SPACE  &kp TAB    &kp ENTER  &kp BACKSPACE  &kp DELETE  &trans             &trans
             >;
         };
     };
