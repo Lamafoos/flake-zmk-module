@@ -124,13 +124,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        neu {
+        gallium {
             bindings = <
-&trans          &trans        &trans            &trans      &trans     &trans       &trans       &trans         &trans      &trans             &trans         &trans
-&kp ESCAPE      &kp W         &kp F             &kp M       &kp P      &kp V        &kp FSLH     &kp DOT        &kp Q       &kp DOUBLE_QUOTES  &kp APOS       &kp Z
-&kp SEMICOLON   &kp R         &kp S             &kp N       &kp T      &kp B        &kp COMMA    &kp A          &kp E       &kp I              &kp H          &kp J
-&kp LEFT_SHIFT  &kp X         &kp C             &kp L       &kp D      &kp G        &kp MINUS    &kp U          &kp O       &kp Y              &kp K          &kp RSHFT
-                &kp LEFT_GUI  &kp LEFT_CONTROL  &kp ESCAPE  &kp SPACE  &lt 2 TAB    &lt 3 ENTER  &kp BACKSPACE  &kp DELETE  &kp RIGHT_CONTROL  &kp RIGHT_GUI
+&trans          &trans        &trans            &trans      &trans     &trans       &trans       &trans         &trans            &trans             &trans         &trans
+&kp ESCAPE      &kp B         &kp L             &kp D       &kp C      &kp V        &kp J        &kp Y          &kp O             &kp U              &kp COMMA      &kp Z
+&kp SEMICOLON   &kp N         &kp R             &kp T       &kp S      &kp G        &kp P        &kp H          &kp A             &kp E              &kp I          &kp J
+&kp LEFT_SHIFT  &kp X         &kp Q             &kp M       &kp W      &kp Z        &kp K        &kp F          &kp SINGLE_QUOTE  &kp SEMICOLON      &kp PERIOD     &kp RSHFT
+                &kp LEFT_GUI  &kp LEFT_CONTROL  &kp ESCAPE  &kp SPACE  &lt 2 TAB    &lt 3 ENTER  &kp BACKSPACE  &kp DELETE        &kp RIGHT_CONTROL  &kp RIGHT_GUI
             >;
         };
 
